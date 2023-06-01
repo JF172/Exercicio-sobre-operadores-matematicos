@@ -1,0 +1,48 @@
+01- PROGRAMA QUADRADO: o usuário digita um número e o programa retorna o quadrado
+deste número.
+
+let v1 = Number(prompt("Digite um número"));
+
+let quad = (v1 ** 2);
+
+document.write("O quadrado do número é: " + quad)
+
+02- PROGRAMA QUADRADO 2.0: o usuário informa três números inteiros, o programa soma
+esses três valores e depois mostra o quadrado do resultado obtido.
+
+let v1 = Number(prompt("Digite o primeiro número"));
+let v2 = Number(prompt("Digite o segundo número"));
+let v3 = Number(prompt("Digite o terceiro número"));
+
+let soma = (v1 + v2 + v3);
+let quad = (soma ** 2)
+
+document.write("O resultado obtido foi: "+quad)
+
+03- PROGRAMA RAIZ: o usuário informa um número e o programa exibe a raiz quadrada deste
+número.
+
+let n1 = Number(prompt("Digite um número"));
+
+let raiz = (n1 ** 0.5);
+
+document.write("A raiz do número é "+raiz)
+
+04- PROGRAMA MÓDULO: usuário digita um valor positivo ou negativo e o programa exibe
+sempre um valor positivo.
+
+let n = Number(prompt("Digite um número"));
+
+let mod = (n ** 2) ** 0.5;
+
+document.write("O resultado é"+mod)
+
+05- PROGRAMA VOLUME: calcula o volume cúbico de uma lata de óleo. O usuário informa a
+altura e o raio e o programa calcula por meio da fórmula VOLUME  PI * R2 * ALTURA
+
+let height = Number(prompt("Digite a altura da lata de oléo"));
+let ray = Number(prompt("Digite o raio da lata de oléo"));
+
+let vol = Math.PI * (ray ** 2 ) * height;
+
+document.write("O volume cúbico da lata de oléo é: "+vol)
